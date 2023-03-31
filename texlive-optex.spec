@@ -1,6 +1,6 @@
 Name:		texlive-optex
 Version:	64050
-Release:	1
+Release:	2
 Summary:	LuaTeX format based on Plain TeX and OPmac
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/optex
