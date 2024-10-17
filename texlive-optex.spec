@@ -3,7 +3,7 @@ Version:	64050
 Release:	2
 Summary:	LuaTeX format based on Plain TeX and OPmac
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/optex
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/optex
 License:	pd
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/optex.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/optex.doc.r%{version}.tar.xz
