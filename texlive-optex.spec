@@ -1,5 +1,6 @@
 %global tl_name optex
 %global tl_revision 79618
+%global tl_bin_links optex:luahbtex
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -25,6 +26,8 @@ Requires:	texlive(optex.bin)
 Requires:	texlive(rsfs)
 Requires:	texlive(unicode-data)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 OpTeX is a LuaTeX format based on Plain TeX macros with power from OPmac
